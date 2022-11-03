@@ -8,5 +8,15 @@
 */
 int main(void)
 {
+	system("clear");
+
+	char c1, c2;
+
+	printf("please enter two character: \n");
+	c1 = getc(stdin);
+	c2 = getchar();
+
+	printf("The first charater you enter is: %c\n", c1);
+	printf("The second charater you enter is: %c\n", c2);
 	return (0);
 }

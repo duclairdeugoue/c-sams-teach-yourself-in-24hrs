@@ -8,5 +8,10 @@
 */
 int main(void)
 {
+	char letter = 'A';
+
+	system("clear");
+	printf("A is a character with alphabet value: %c\n", letter);
+	printf("A is a character with ANSI value: %d\n", letter);
 	return (0);
 }
