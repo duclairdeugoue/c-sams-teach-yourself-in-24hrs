@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 
@@ -9,6 +7,7 @@
 */
 int main(void)
 {
-	automobile test;
+	s_Automobile test;
+	
 	return (0);
 }
