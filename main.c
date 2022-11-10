@@ -1,6 +1,7 @@
 #include "stdio.h"
 #include "stdlib.h"
-#include "automobile.c"
+#include "structures/main.h"
+#include "functions/main.h"
 
 
 /**
@@ -13,8 +14,8 @@ int main(void)
 
 	system("clear");
 
-	// f_display_init_automobile();
-	f_display_init_am_using_pointer(ps_automobile);
+	// f_DisplayInitAutomobile();
+	f_DisplayInitAmUsingPointer(ps_automobile);
 
 	putchar('\n');
 	return (0);

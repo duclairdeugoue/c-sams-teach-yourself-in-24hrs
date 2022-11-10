@@ -54,11 +54,9 @@ Focuses on functions and dynamic memory allocations in C. The following is a sum
 
 - Hour 16, “Applying Pointers” teaches you how to perform pointer arithmetic opera- tions, access elements in arrays with pointers, and how to pass pointers to functions.
 
-- Hour 17, “Allocating Memory” explains the concept of allocating memory dynami- cally. C functions, such as malloc(), calloc(), realloc(), and free(), are intro- duced with 
-regard to the dynamic memory allocation.
+- Hour 17, “Allocating Memory” explains the concept of allocating memory dynami- cally. C functions, such as malloc(), calloc(), realloc(), and free(), are intro- duced with regard to the dynamic memory allocation.
 
-- Hour 18, “Using Special Data Types and Functions,” introduces the enum data type and the use of typedef. Function recursion and command-line arguments to the main() 
-function are also taught in Hour 18.
+- Hour 18, “Using Special Data Types and Functions,” introduces the enum data type and the use of typedef. Function recursion and command-line arguments to the main() function are also taught in Hour 18.
 
 ### Part V: Structure, Union, File I/O, and More discusses structures, unions, and disk file I/O in C
 
