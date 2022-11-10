@@ -1,6 +1,4 @@
 typedef struct s_Automobile s_Automobile;
-
-
 /**
  * struct automobile - structure
  * @m_year: first member
@@ -15,5 +13,9 @@ struct s_Automobile
 	char m_model[10];
 	int m_engine_power;
 	double m_weight;
-} s_sedan = {1997, "New model", 200, 2345.67 };
+} gs_sedan = {1997, "New model", 200, 2345.67 };
 
+/* Function definitions*/
+
+void f_display_init_automobile();
+void f_display_init_am_using_pointer();

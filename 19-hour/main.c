@@ -1,4 +1,6 @@
-#include "main.h"
+#include "stdio.h"
+#include "stdlib.h"
+#include "automobile.c"
 
 
 /**
@@ -7,7 +9,13 @@
 */
 int main(void)
 {
-	s_Automobile test;
-	
+	s_Automobile *ps_automobile = &gs_sedan;
+
+	system("clear");
+
+	// f_display_init_automobile();
+	f_display_init_am_using_pointer(ps_automobile);
+
+	putchar('\n');
 	return (0);
 }
