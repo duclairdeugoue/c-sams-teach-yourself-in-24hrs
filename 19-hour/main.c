@@ -2,11 +2,13 @@
 #include <stdlib.h>
 #include "main.h"
 
+
 /**
  * main - functions that executes certains programs base on user choice
- * Return 0 if everything is okay
+ * Return: 0 if everything is okay
 */
 int main(void)
 {
+	automobile test;
 	return (0);
 }
